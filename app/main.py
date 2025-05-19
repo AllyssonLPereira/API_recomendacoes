@@ -1,6 +1,6 @@
-from app.routers import routers_produtos, routers_usuarios
-from fastapi import FastAPI
 from typing import Dict
+from fastapi import FastAPI
+from app.routers import routers_produtos, routers_usuarios
 
 
 MENSAGEM_HOME: str = "Bem-vindo à API de Recomendação de Produtos"

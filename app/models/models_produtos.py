@@ -1,5 +1,5 @@
-from pydantic import BaseModel
 from typing import List
+from pydantic import BaseModel
 
 
 # Modelo base para produto
@@ -28,3 +28,4 @@ class HistoricoCompras(BaseModel):
 class Preferencias(BaseModel):
     categorias: List[str] | None = None
     tags: List[str] | None = None
+    

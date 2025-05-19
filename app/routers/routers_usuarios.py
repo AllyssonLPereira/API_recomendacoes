@@ -1,5 +1,5 @@
-from fastapi import APIRouter
 from typing import List
+from fastapi import APIRouter
 from app.models.models_usuarios import Usuario
 
 

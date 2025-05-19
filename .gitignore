@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,django,flask
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,django,flask
 
+Scripts/
+pyvenv.cfg
+
 ### Django ###
 *.log
 *.pot
